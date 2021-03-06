@@ -21,6 +21,7 @@ Button-color: #0E156F;
   --button-color: #080D42;
   --text-color:  #000000;
   --secondary-text-color: #ffffff;
+  --primary-text-color: #000000;
   --heading-weight: 700;
   --font-size: 80px;
 }
@@ -248,7 +249,7 @@ padding: 0 10px;
 
 .navigation-list li {
   display: inline-block;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 12px;
 }
 
@@ -344,14 +345,14 @@ padding: 0 10px;
 }
 
 .navigation-list__item {
-  color: var(--primary-color: #0b0b0b);
+  color: var(--primary-color);
   }
 
 
 .profile__svg{
   float: right;
   height:250px;
-  weight: 250px;
+  width: 250px;
   padding-right: 70px;
 
 }
@@ -365,7 +366,6 @@ padding: 0 10px;
 }
 
 table {
-  position:relatiev;
   text-align: center;
   margin: 30px auto 20px;
 }
@@ -423,13 +423,13 @@ table {
 
 @keyframes color-change {
   0% {
-    fill: #fdffbf;
+    color: #fdffbf;
   }
   50% {
-    fill: #f0ff67;
+    color: #f0ff67;
   }
   100% {
-    fill: #fffb00;
+    color: #fffb00;
   }
 }
 

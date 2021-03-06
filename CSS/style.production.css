@@ -5,6 +5,16 @@
 * Browsers: last 4 version
 */
 
+/* Colors used:
+background-color: #f3f3f3;
+Text Color (white): #ffffff;
+Secondary Text color (Black): #000000;
+Primary Color (black): #0b0b0b;
+Secondary Color (Blue): #1a27c9;
+tertiary-color: #f3f3f3;
+Button-color: #0E156F;
+*/
+
   html, body{
    width: 100%;
    height: 100%;
@@ -253,7 +263,7 @@ padding: 0 10px;
 
 .navigation-list li {
   display: inline-block;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 12px;
 }
 
@@ -370,12 +380,12 @@ padding: 0 10px;
 
   a:visited {
 
-    color: undefined;
+    color: #000000;
     text-decoration: none;
   }
 
   a:active {
-  color: undefined;
+  color: #000000;
   text-decoration: none;
   }
 
@@ -420,14 +430,14 @@ padding: 0 10px;
 }
 
 .navigation-list__item {
-  color: undefined;
+  color: #0b0b0b;
   }
 
 
 .profile__svg{
   float: right;
   height:250px;
-  weight: 250px;
+  width: 250px;
   padding-right: 70px;
 
 }
@@ -441,7 +451,6 @@ padding: 0 10px;
 }
 
 table {
-  position:relatiev;
   text-align: center;
   margin: 30px auto 20px;
 }
@@ -533,25 +542,25 @@ table {
 
 @-webkit-keyframes color-change {
   0% {
-    fill: #fdffbf;
+    color: #fdffbf;
   }
   50% {
-    fill: #f0ff67;
+    color: #f0ff67;
   }
   100% {
-    fill: #fffb00;
+    color: #fffb00;
   }
 }
 
 @keyframes color-change {
   0% {
-    fill: #fdffbf;
+    color: #fdffbf;
   }
   50% {
-    fill: #f0ff67;
+    color: #f0ff67;
   }
   100% {
-    fill: #fffb00;
+    color: #fffb00;
   }
 }
 
