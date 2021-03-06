@@ -375,17 +375,19 @@ button:focus {
   }
 
   a:focus {
-  color: #1a27c9;
-  text-decoration: none;
+    color: #1a27c9;
+    text-decoration: none;
   }
 
   .navigation-list li {
     display: block;
     font-size: 15px;
     text-align: center;
-    border-bottom: 0.1px solid #dbdbdb; width: 900px; padding: 10px 0;
-    border-top: 0.1px solid #dbdbdb; width: 900px; padding: 10px 0;
+    border-bottom: 0.1px solid #dbdbdb;
+    border-top: 0.1px solid #dbdbdb;
+    padding: 10px 0;
     background-color: #fff;
+    color: #000;
     display: none;
     padding: 20px 20px;
     width: 900px;
