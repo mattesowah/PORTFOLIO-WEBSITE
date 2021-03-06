@@ -41,7 +41,7 @@ Button-color: #0E156F;
  }
 
 
-header{
+header {
   background-color: var(--primary-color);
 }
 
@@ -56,7 +56,6 @@ header{
 .more__info {
   text-align: center;
 }
-
 
 .find__me {
   font-size: 15px;
