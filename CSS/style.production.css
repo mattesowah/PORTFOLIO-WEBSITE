@@ -256,6 +256,10 @@ button:focus {
   width: 33%;
 }
 
+.grid__titles {
+  padding-bottom: 50px;
+}
+
 @supports (display: grid) {
   .grid {
     display: -ms-grid;
@@ -267,8 +271,8 @@ button:focus {
   }
 
   .grid__item {
-    background-color: white;
-    padding: 10px;
+    background-color: lightgray;
+    padding: 30px;
     width: auto;
     min-height: auto;
     margin: 0;
