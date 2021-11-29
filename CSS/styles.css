@@ -21,7 +21,7 @@ body {
   --tertiary-color: #f3f3f3;
   --button-color: #080d42;
   --text-color: #000;
-  --secondary-text-color: #fff;
+  --secondary-text-color: #000;
   --primary-text-color: #000;
   --heading-weight: 700;
   --font-size: 80px;
@@ -72,6 +72,10 @@ header {
 .story__book {
   font-size: 20px;
   text-align: center;
+}
+
+.links {
+  color: #000;
 }
 
 .our__work {
