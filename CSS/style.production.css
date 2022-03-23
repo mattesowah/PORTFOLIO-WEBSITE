@@ -242,6 +242,7 @@ button:focus {
 
 .navigation-list__item {
   text-decoration: none;
+  color: #fff;
   padding: 0 10px;
 }
 
