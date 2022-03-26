@@ -82,8 +82,8 @@ p {
   margin-top: -50px;
 }
 
-a:visited {
-  color: #fff;
+.gridlinks:visited {
+  color: #000;
   text-decoration: none;
 }
 
@@ -101,6 +101,8 @@ a:focus {
   color: #1a27c9;
   text-decoration: none;
 }
+
+
 
 button {
   border: none;
@@ -291,6 +293,10 @@ button:focus {
     min-height: auto;
     margin: 0;
   }
+}
+
+.gridlinks {
+  color: #000;
 }
 
 @media only screen and (max-width: 620px) {
