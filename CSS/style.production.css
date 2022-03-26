@@ -142,7 +142,7 @@ button:focus {
 .container {
   display: flex inline;
   justify-content: center;
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
 
 .social-media {
